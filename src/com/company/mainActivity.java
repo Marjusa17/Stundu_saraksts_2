@@ -19,3 +19,5 @@ public class mainActivity  {
     String getData = "SELECT VARDS FROM SKOLOTAJS";
 
 }
+
+///////////////////////////////ds
