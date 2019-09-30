@@ -16,4 +16,8 @@ public class mainActivity  {
 
 
     ////comentars
+
+    public void fun(){
+
+    }
 }
