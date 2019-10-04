@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class LoginActivity {
     private JPanel panel1;
@@ -14,5 +15,8 @@ public class LoginActivity {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+        Database db = new Database();
+        db.connectDatabase();
     }
+
 }
