@@ -4,8 +4,16 @@ import javax.swing.*;
 
 public class LoginActivity {
     private JPanel panel1;
+    private JButton button1;
+    private JButton button2;
+    private JTextField textField1;
+    private JTextField textField2;
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("LoginActivity");
+        frame.setContentPane(new LoginActivity().panel1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
