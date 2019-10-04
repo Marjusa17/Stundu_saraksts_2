@@ -6,8 +6,8 @@ import java.awt.*;
 public class LoginActivity {
     private JPanel panel1;
     private JButton B_login;
-    private JTextField textField1;
-    private JTextField textField2;
+    private JTextField TF_Username;
+    private JTextField TF_Password;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("LoginActivity");
