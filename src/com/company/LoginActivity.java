@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class LoginActivity {
     private JPanel panel1;
-    private JButton button2;
+    private JButton B_login;
     private JTextField textField1;
     private JTextField textField2;
 
